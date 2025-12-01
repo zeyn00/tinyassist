@@ -13,7 +13,7 @@ This is TinyAssist. A mini voice assistant project based on an ESP32 and powered
 - M5Stack Atom Echo device
 - Terminals 3D model. [Here is the link](https://www.printables.com/model/160473-terminal-for-ssd1306-13-oled-and-wemos-d1-mini-new)
 - The 3D model of the Atom Echo’s frame.(This is my model) [Here is the link](https://makerworld.com/tr/models/2063557-frame-for-m5stach-atom-echo#profileId-2228227)
-- Slim 90-degree Type-C cable [Here is the link](https://tr.aliexpress.com/item/1005009920122693.html?pdp_ext_f=%7B%22sku_id%22%3A%2212000050579928518%22%7D&sourceType=1&spm=a2g0o.wish-manage-home.0.0&gatewayAdapt=glo2tur)
+- Slim 90-degree Type-C cable [Here is the link](https://aliexpress.com/item/1005009920122693.html?pdp_ext_f=%7B%22sku_id%22%3A%2212000050579928518%22%7D&sourceType=1&spm=a2g0o.wish-manage-home.0.0&gatewayAdapt=glo2tur)
 - 1.3" SSD1306 i2c oled display
 
   
@@ -48,4 +48,4 @@ voice_assistant:
 **IMPORTANT NOTE**
 Due to the shape of the original terminal’s 3D model, it’s unfortunately not possible to power the Atom Echo with standard Type-C cables. Therefore, you either need to use an external 90-degree slim cable like the one in the link below, or supply power to the device through the pins (which is the method I chose).
 
-[Cable from AliExpress](https://tr.aliexpress.com/item/1005009920122693.html?pdp_ext_f=%7B%22sku_id%22%3A%2212000050579928518%22%7D&sourceType=1&spm=a2g0o.wish-manage-home.0.0&gatewayAdapt=glo2tur)
+[Cable from AliExpress](https://aliexpress.com/item/1005009920122693.html?pdp_ext_f=%7B%22sku_id%22%3A%2212000050579928518%22%7D&sourceType=1&spm=a2g0o.wish-manage-home.0.0&gatewayAdapt=glo2tur)
