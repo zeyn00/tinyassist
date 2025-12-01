@@ -20,8 +20,6 @@ This is TinyAssist. A mini voice assistant project based on an ESP32 and powered
 **Connections:**
 
 Display  -  Atom Echo
----------------------
-
 VCC  -  3.3 Pin
 G    -  G
 SDA  -  G25
