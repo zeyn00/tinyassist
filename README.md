@@ -17,6 +17,6 @@ voice_assistant:
           entity_id: tts.piper
           cache: "false"
           # Set this to your external media player
-          media_player_entity_id: media_player.okan_adli_kisiye_ait_tab_a9
+          media_player_entity_id: media_player.your_media_player
           message: !lambda 'return x;'
 ```
