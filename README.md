@@ -7,7 +7,7 @@
 
 This is TinyAssist. A mini voice assistant project based on an ESP32 and powered by Home Assistant Voice Assist.
 
-[Video in action.](https://tr.aliexpress.com/item/1005009920122693.html?pdp_ext_f=%7B%22sku_id%22%3A%2212000050579928518%22%7D&sourceType=1&spm=a2g0o.wish-manage-home.0.0&gatewayAdapt=glo2tur)
+[Video in action.](https://www.reddit.com/r/Esphome/comments/1pbaipd/tinyassist/)
 
 **You will need the following:**
 - M5Stack Atom Echo device
